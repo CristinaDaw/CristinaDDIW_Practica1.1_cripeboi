@@ -1,0 +1,369 @@
+/* Restablecer estilos por defecto del HTML a "ninguno" */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    list-style: none;
+    color: rgb(0,0,25);
+    
+}
+
+abbr {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+time{
+    color: inherit;
+    font-size: inherit;
+}
+
+q{
+    quotes: "«" "»";
+}
+
+header {
+    margin-top: 2%;
+    margin-bottom: 4.5%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(240,93,80);
+    font-weight: 800;
+}
+
+h1 a:hover {
+    color: rgba(240,93,80,0.5);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.45em;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 2%;
+}
+
+nav {
+    text-align: center;
+    padding: 1.45%;
+}
+
+nav ul li a {
+    color: rgb(0,0,25);
+    text-decoration: none;
+    line-height: 1.6em;
+    font-weight: lighter;
+}
+
+.nav-el:hover {
+    color: rgba(0,0,25,0.5);
+}
+a:hover {
+    color: rgba(0,0,25,0.5);
+}
+
+.pagina-actual {
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1em;
+    margin: 3% 0 0 0;
+}
+
+main {
+    margin: 0 20% 0 20%;
+}
+
+
+
+article p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: .85em;
+    line-height: 1.3em;
+}
+
+#blck1 {
+    text-align: center;    
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+#blck2 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+#blck1 p{    
+    padding: 1%;
+    font-weight: 500;
+}
+
+#blck2 p{    
+    padding: 1%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+
+#blck2 footer p{    
+    padding: 1%;
+    text-align: justify;
+    font-size: .85em;
+    font-weight: normal;
+}
+
+#firma-autor {
+    display: inline-block; 
+    font-size: 1.15em;
+    padding-top: 3%;   
+    padding-bottom: .5%; 
+}
+
+#fecha-cita { 
+    display: inline-block;      
+    font-size: .55em;     
+    color: rgb(0,0,25);
+    font-weight: 500;
+    padding: 1%;
+    text-transform:uppercase;
+}
+
+figure {
+    text-align: center; 
+}
+
+img {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto 0 auto; 
+}
+
+figcaption {
+    max-width: 100%;
+    font-size: .6em;
+    padding: 1%;
+    text-align: center; 
+    margin-top: 1%;
+}
+
+.icono {
+    display: inline-block;
+    max-width: 1.1em;
+}
+
+.copy-flaticon {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.copy-flaticon:hover {
+    color: rgb(240,93,80);
+    text-decoration: none;
+}
+
+.sublist-listado {
+    margin: 1% auto 1% auto;
+    text-indent: 2%;
+    color: rgba(0,0,25,0.5);
+    line-height: 1.3;
+    height: auto;  
+}
+
+
+.sublist-motivacion {
+    margin: 2.5% auto 2.5% 4%;
+    color: rgba(0,0,25,0.5);
+}
+
+.sublist-motivacion li {
+    margin: 4% auto 4% auto;
+    font-size: .9em;
+}
+
+li.sublist-element::marker{
+    font-size: .8em;
+}
+
+.sublist-element {
+    list-style: square;
+    font-weight: 400;
+    list-style-position: inside;
+    margin: .5% auto .5% auto;
+}
+
+.texto-sublist-mot {
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.enlace-naranja {
+    color: rgb(240,93,80);
+    text-decoration: none;
+    font-weight: inherit;
+}
+
+.enlace-naranja:hover {
+    color: rgba(240,93,80,0.5);
+    text-decoration: none;
+}
+
+ul li.sublist-element a.enlace-naranja {
+    font-size: .75em;
+}
+
+.nombre-autor .enlace-naranja{
+    color: rgb(240,93,80);
+    font-weight: 800;    
+    font-size: .9em;
+    margin: 2% auto 2% auto;
+}
+
+.nombre-autor .enlace-naranja:hover{
+    color: rgba(240,93,80,.5);
+    font-weight: 800;    
+    margin: 2% auto 2% auto;
+}
+
+.negrita-al-izq {
+    font-weight: 700;
+    padding-top: 2.5%;
+    font-size: 1.1em;
+    text-align: start;
+    margin-right: 20%;
+    line-height: 1.7em;
+}
+
+#fechas-nobel {
+    text-align: center;
+    margin: 2% auto .5% auto;
+    line-height: inherit;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#listado-idiomas {
+    margin: 5% auto 5% auto;
+    font-size: 1.5em;
+}
+
+#listado-motivacion {
+    margin: 5% auto 5% auto;
+    font-size: 1.5em;
+}
+
+.nombre-idioma {
+    color: rgba(0,0,25,0.5);
+    font-weight: 700;   
+    list-style-image: url("../img/idioma.png");
+}
+
+time.fecha-gris {
+    color: rgba(0,0,25,0.5);
+    font-size: .9em;
+    font-weight: 800;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 700;
+    white-space: nowrap;
+    margin: 1%;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: .7em;
+    text-transform: uppercase;
+}
+
+#pie-listado {
+    text-align: center;
+    margin: 6% auto 10% auto;
+}
+
+.firma-alumno {    
+    color: rgb(255,255,255);
+    margin: 1% auto 1.5% auto;
+}
+
+#video-blowing figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+
+#pie-BobDylan{
+    font-size: .6em;
+    font-weight: 700;
+}
+
+#autor-climent {
+    padding: 1em 0 3em 0;
+}
+
+#autor-climent p{
+    color:rgb(0,0,25);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#autor-climent a{
+    text-decoration: none;
+    font-weight: normal;
+    color:rgb(240,93,80);
+}
+
+#autor-climent a:hover{
+    text-decoration: none;
+    font-weight: normal;
+    color:rgba(240,93,80,0.5);
+}
+
+.container1{
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    white-space: nowrap;
+    }
+
+.articulos {
+    margin: 1.1em auto 1em auto;
+}
+
+.main-footer {
+    text-align: center;
+    height: auto;
+    background-color: rgb(0,0,25);
+    font-size: 0.6em;
+    color: rgb(255,255,255);
+    width: 100%;
+    margin: 0;
+    padding: 3em;
+    border: 0;
+}
